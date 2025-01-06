@@ -1,0 +1,10 @@
+table {
+    border: 1px solid green;
+    border-collapse: collapse;
+     /* extra display cheyyunna lines remove avunnu */
+}
+
+th,td {
+    text-align: center;
+    padding: 10px;
+}
