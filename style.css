@@ -8,3 +8,12 @@ th,td {
     text-align: center;
     padding: 10px;
 }
+
+#main {
+ text-align: center;
+}
+form{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
