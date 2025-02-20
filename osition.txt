@@ -1,0 +1,37 @@
+css posioning
+
+used to define position of elements 
+
+
+5 type of position
+
+1. static
+2. relative
+3. absolute
+4. fixed
+5. sticky
+
+(top,bottom,left,right) => Properties
+
+
+static - default position
+can not change top bottom left right 
+
+position: static
+
+relative - 
+
+
+
+
+aaaa
+  aaa 
+  aaa
+     aa
+bbbb
+cccc
+   cccc
+dddd
+   dddd
+     dd
+     dd
