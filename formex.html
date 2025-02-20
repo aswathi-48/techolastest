@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data</title>
+</head>
+<body>
+    <h2> Registration Details</h2>
+    <p><strong>Name:</strong> <span id="name"></span></p>
+    <p><strong>Age:</strong> <span id="age"></span></p>
+    <p><strong>Email:</strong> <span id="email"></span></p>
+    <p><strong>Date of Birth:</strong> <span id="dob"></span></p>
+    <p><strong>Phone Number:</strong> <span id="phone"></span></p>
+    <p><strong>Password:</strong> <span id="password"></span></p>
+    <p><strong>Course:</strong> <span id="course"></span></p>
+
+    <script>
+        // Fetch data from the URL parameters
+        const params = new URLSearchParams(window.location.search);
+
+        // Display data on the page
+        document.getElementById('name').textContent = params.get('name');
+        document.getElementById('age').textContent = params.get('age');
+        document.getElementById('email').textContent = params.get('email');
+        document.getElementById('dob').textContent = params.get('dob');
+        document.getElementById('phone').textContent = params.get('phone');
+        document.getElementById('password').textContent = params.get('password');
+        document.getElementById('course').textContent = params.get('course');
+    </script>
+</body>
+</html>
