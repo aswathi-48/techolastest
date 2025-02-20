@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .vertical-line {
+            width: 2px;
+            height: 200px;
+            background-color: black;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .horizontal-line {
+            width: 150px;
+            height: 2px;
+            background-color: black;
+            position: absolute;
+        }
+
+        .left {
+            left: -150px;
+        }
+
+        .right {
+            right: -150px;
+        }
+
+        .text {
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="horizontal-line left"></div>
+        <div class="text"> Text</div>
+        <div class="vertical-line"></div>
+        <div class="text"> Text</div>
+        <div class="horizontal-line right"></div>
+    </div>
+</body>
+</html>
