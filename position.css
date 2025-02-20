@@ -1,0 +1,51 @@
+#container {
+    width: 340px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;   
+    /* position: relative; */
+}
+
+.div1{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    margin: 2px;
+    /* position: static;
+    top: 10px; */
+    /* position: relative;
+    left: 50px;
+    top: 30px; */
+    /* position: static;
+    top: 10px; */
+
+}
+.div2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(53, 11, 116);
+    margin: 2px;
+    /* position: fixed;
+    right: 500px; */
+}
+.div3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(6, 87, 45);
+    margin: 2px;
+    /* position: absolute;
+    top: 10px;
+    right: 202px; */
+
+}
+.div4{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(238, 227, 16);
+    margin: 2px;
+}
+h3{
+    background-color: rgb(168, 168, 238);
+    position: sticky;
+    top: 1px;
+}
