@@ -1,0 +1,12 @@
+html - hypertext markup lanugage
+
+flex - used to create one dimational layout
+grid - used to create two dimational layout
+
+psuedo class 
+
+psuedo elements
+
+css selectors
+
+position methods
