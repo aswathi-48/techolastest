@@ -1,0 +1,67 @@
+h2:hover{
+    color: blue;
+    font-family: monospace;
+}
+
+.main:hover{
+
+}
+
+
+h2:active{
+    color: blueviolet;
+    font-style: italic;
+    font-size: 30px;
+}
+
+ input:focus{
+    background-color: rgb(194, 151, 235);
+    border: 5px solid rgb(76, 29, 171);
+} 
+
+
+
+ a:link {
+    color: red;
+}
+
+a:visited {
+    color: rgb(42, 165, 69);
+}  
+
+
+
+
+
+
+
+
+ p::first-line{
+    color: red;
+}
+
+p::first-letter{
+    color: blue;
+}  
+
+ h1::before{
+    content: "hai";
+    color: blueviolet;
+} 
+/* h1:hover::after{
+    content: "John";
+    color: brown;
+}  */
+
+/* h1:hover::after{
+    content: "John";
+    color: red;
+    content: url(https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg);
+} */
+
+
+/* 
+p::selection{
+    background-color: rgb(221, 170, 170);
+    color: blue;
+} */
