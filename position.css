@@ -46,6 +46,6 @@
 }
 h3{
     background-color: rgb(168, 168, 238);
-    position: sticky;
-    top: 1px;
+    /* position: sticky;
+    top: 1px; */
 }
