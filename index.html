@@ -5,21 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my code </title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        h2{
+            color: brown;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
 
 </head>
 
-<body>
+<body >
     <h1>Hello html</h1>
     <h2>hello html</h2>
     <h3>hello html</h3>
     <h4>hello html</h4>
     <h5>hello html</h5>
     <h6>hello html</h6>
+
+
     <p> Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro odit consectetur! Lorem ipsum
         dolor sit, amet consectetur adipisicing elit. Optio, placeat quam? Tempora a omnis saepe ipsum ducimus, adipisci
         eos sequi. </p>
+
+
+        <hr style="width: 100px;" >
+
+
     <h2> Text Formatting Tags</h2>
+
+    <b> Html</b>
 
     <p>Learn Web Development</p>
     <p>Learn Web <b> Development</b> </p>
@@ -27,12 +41,25 @@
     <p>Learn Web <mark>Development</mark> </p>
     <p>Learn <small>Web</small> Development</p>
     <p>Learn <ins>Web</ins> Development</p>
-    <p>Learn Web Development</p>
+    <!-- <p>Learn Web Development</p>
     <p>(a+b) <sup> 2</sup>= a <sup>2</sup>+2ab+b <sup>2</sup></p>
-    <p>H<sub>2</sub>0</p>
+    <p>H<sub>2</sub>0</p> -->
+    <!-- <p>(a+b) <sup>2</sup> = a <sup>2</sup> + 2ab + b <sup>2</sup></p> -->
+    <!-- <p>H <sub>2</sub>0</p> -->
+
+    <p> (a+b) <sup> 2 </sup> = a <sup>2</sup> + 2ab + b <sup>2</sup></p>
+ <p> H <sub>2</sub> o</p>
 
 
+ <!-- <iframe src="https://www.mongodb.com/" frameborder="2"></iframe>  -->
+  <iframe src="https://www.mongodb.com/" frameborder="0"></iframe>
+  <!-- <iframe src="" frameborder="0"></iframe> -->
+  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/3mF8qHp11iM?si=yQpwk_LxZ0UaeGOb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iYCxXL0oirg?si=MsFQeU2UYn2cy52D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+<a href="https://www.w3schools.com/">Link</a>
+<img src="https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="" height="100px">
     <h2> Html List</h2>
+    <img src="./Images/Group " alt="image" height="" width="">
 
     <h3> List of fruits</h3>
 
@@ -44,11 +71,9 @@
     </ul>
 
     <!-- navigation links also set -->
-
-    <ul>
-        <li> <a href="page.html">Html page </a></li>
-
-    </ul>
+<!-- <ul>
+<li> <a href="page.html">Html page </a></li>
+</ul> -->
 
     <ol type="i">
         <!-- a, A, i, I, 1 -->
@@ -63,6 +88,22 @@
         <dt><b> unorderd list</b> </dt>
         <dd> A bulleted list of elements</dd>
     </dl>
+
+
+
+    <ul>
+        <li>aaaa
+            <ul>
+                <li>aaa</li>
+                <li>aaa
+                    <ul>
+                        <li>aa</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>bbbb</li>
+    </ul>
 
     <h3>Nested List</h3>
     <ul>
@@ -92,17 +133,33 @@
         <li>Meat</li>
     </ul>
 
+
     <h3>Achor Tag Html Link</h3>
 
-    <a href="page.html">Link</a>
+    <a href="page.html" >Link</a>
 
+    <h3 style="color: blue;">Html image </h3>
+    <!-- <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg"
+        alt="image" height="100" width="100"> -->
 
-    <h3>Html image </h3>
-    <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg"
-        alt="image" height="100">
-
-
+    <img src="./Images/Group 3806.png" alt="">
     <h3> Html tables</h3>
+
+
+
+<table border="2">
+    <tr>
+        <th>Sl.No</th>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Abhi</td>
+        <td>12</td>
+    </tr>
+</table>
+
 
     <table style="width: 200px;" border="2">
         <!-- optional -->
@@ -128,11 +185,11 @@
             <td>3</td>
         </tr>
     </table>
+<h2>Table</h2>
+    <!-- <h3>col span </h3> -->
 
-    <h3>col span </h3>
 
-
-    <table style="width: 200px;" border="2">
+    <table border="2">
         <tr>
             <th>name</th>
             <th colspan="3">contact</th>
@@ -145,11 +202,11 @@
         </tr>
     </table>
 
-    <h3>row span </h3>
+    <!-- <h3>row span </h3>   -->
 
 
     <table style="width: 200px;" border="2">
-        <tr>
+    <tr>
         <th>name</th>
         <td>Akshay</td>
     </tr>
@@ -165,6 +222,88 @@
         <td>34567</td>
     </tr>
   </table>
+
+
+
+
+<h2>HTML FORMS</h2>
+<!-- 
+<form>
+    <label for="username">User Name:</label>
+    <input type="text" name="username" id="username"><br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password"><br>
+    <input type="submit" value="submit">
+</form> -->
+
+<form>
+<label for="username"> username</label>
+<input type="text" name="username" id="username"> <br>
+<label for="password">Password</label>
+<input type="password" name="password" id="password">
+<input type="submit" value="submit">
+</form>
+
+
+
+<table border="2">
+    <tr>
+        <th rowspan="2">Details</th>
+        <th colspan="2">Average</th>
+        <th rowspan="2">Red Eyes</th>
+    </tr>
+    <tr>
+        <td>height</td>
+        <td>weight</td>
+    </tr>
+    <tr>
+        <td>Males</td>
+        <td>aa</td>
+        <td>aa</td>
+        <td>dsg</td>
+    </tr>
+    <tr>
+        <td>feales</td>
+        <td>aahggasa</td>
+        <td>sdcds</td>
+        <td>dsd</td>
+    </tr>
+</table>
+
+
+
+<h3>Iframe</h3>
+
+<!-- <iframe src="page.html" frameborder="0"></iframe> -->
+ <iframe src="https://www.mongodb.com/" frameborder="2"></iframe> 
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/3mF8qHp11iM?si=yQpwk_LxZ0UaeGOb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --> -->
+<!-- 
+<form action="">
+    <label for="username"> UseName</label>
+    <input type="text" name="username" id="username">
+    <label> Password</label>
+    <input type="password" name="password" id="password">
+    <input type="submit" value="submit ">
+</form> -->
+
+<form action="">
+    <label for="username"> Username</label>
+    <input type="text" placeholder="enter you name" >
+    <label for="password">password</label>
+    <input type="password" name="password" id="password">
+    <input type="submit" value="submit">
+</form>
+
+<div>
+    
+</div>
+<p>(a+b) <sup>2</sup> = a <sup>2</sup>+ 2ab+ b <sup>2</sup></p>
+<p> </p>
+<ul type="Circle">
+    <li>cofee</li>
+    <li>tea</li>
+</ul>
+ 
 
 </body>
 
