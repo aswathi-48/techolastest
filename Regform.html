@@ -58,7 +58,7 @@
         <label for="email">Email</label>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <!-- <input type="email" id="email" placeholder="Enter your email"  ><br><br> -->
-        <input type="email" id="email" placeholder="Enter your email"  pattern="[a-z 0-9 . / % - _]  + @ [a-z 0-9 . / % - _]+ .[a-z]"><br><br>
+        <input type="email" id="email" placeholder="Enter your email" pattern="[a-z 0-9 . / % - _]  + @ [a-z 0-9 . / % - _]+ .[a-z]" required><br><br>
 
     </div>
     <div class="name">
@@ -67,7 +67,7 @@
     </div>
     <div class="name">
         <label for="phone">Phone Number</label>
-        <input type="number" id="num" pattern="[0-9]{10}" placeholder="Enter your number"><br><br>
+        <input type="number" id="num" pattern="[0-9]{10}" placeholder="Enter your number" minlength="10"><br><br>
     </div>
     <div class="name">
         <label for="password">Password</label>
@@ -107,6 +107,13 @@
     </div>
     </form>
 
-    
+    <form action="">
+        <div class="name">
+            <label for="phone">Phone Number</label>
+            <input type="text" id="num" pattern="[0-9]{9}" placeholder="Enter your number" minlength="10"><br><br>
+
+        </div>   
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
